@@ -1,0 +1,46 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TfidfMapReduce",
+            "request": "launch",
+            "mainClass": "TfidfMapReduce",
+            "args": "input/ output/",
+            "projectName": "TF-IDF_MapReduce_4eb93c1c"
+        },
+        {
+            "type": "java",
+            "name": "CalcTFIDF",
+            "request": "launch",
+            "mainClass": "CalcTFIDF",
+            "args": "temp_counttf/ output/",
+            "projectName": "TF-IDF_MapReduce_4eb93c1c"
+        },
+        {
+            "type": "java",
+            "name": "TFIDFDriver",
+            "request": "launch",
+            "mainClass": "TFIDFDriver",
+            "args": "input/ output/",
+            "projectName": "TF-IDF_MapReduce_4eb93c1c"
+        },
+        {
+            "type": "java",
+            "name": "WordCount",
+            "request": "launch",
+            "mainClass": "WordCount",
+            "args": "input/ temp_wordcount/"
+        },
+        {
+            "type": "java",
+            "name": "CountTF",
+            "request": "launch",
+            "mainClass": "CountTF",
+            "args": "temp_wordcount/ temp_counttf/"
+        }
+    ]
+}
